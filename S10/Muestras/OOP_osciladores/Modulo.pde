@@ -19,8 +19,8 @@ class Modulo {
    
     pushMatrix();
     translate(posX, posY);
-    //rotate(radians(o) * sin(frameCount*0.01));
-    rotate(radians(o));
+    rotate(radians(o) * sin(frameCount*0.01));
+    //rotate(radians(o));
     rect(0, 0, tam, tam/5);
     popMatrix();
     
