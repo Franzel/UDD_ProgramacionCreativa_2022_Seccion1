@@ -3,9 +3,9 @@ String[] lineas;
 
 void setup() {
   size(512, 512);
-  lineas = loadStrings("mitexto.txt");
+  lineas = loadStrings("mitexto.txt"); //cargar la data a nuestro array de lineas
   println("El texto tiene " + lineas.length + " lineas.");
-  printArray(lineas);
+  printArray(lineas); //esto lee el array completo de lineas
 }
 
 void draw() {
